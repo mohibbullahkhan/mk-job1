@@ -1,0 +1,287 @@
+
+.container{
+    
+    background-color: azure;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    padding-right: 15px;
+}
+a{
+    text-decoration: None;
+    color: black;
+}
+
+
+.menuu ul li {
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 10px;
+  background-color: hotpink;
+  padding: 10px;
+  border-radius: 20px;
+    list-style: none;
+}
+ul li:hover{
+    background-color: rgb(47, 3, 240);
+  
+}
+.menu {
+    color: black;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.menuu ul li a{
+    font-weight: 700px;
+    color: wheat;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.font-awesome i{
+   padding: 10px;
+   background-color: chartreuse;
+   border-radius: 25px;
+   margin: 5px;
+}
+.font-link{
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+}
+.banar{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-image: url(./dhew-dhew\ bg.svg);
+}
+.faltu{
+    margin-left: 25px;
+}
+.about-myself{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.about-text{
+    width: 500px;
+}
+.MY-services{
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+.MY-services::after{
+    content: "";
+    height: 30px;
+   width: 200px;
+   right:450px;
+   position: absolute;
+   background-image: url(./marker.svg);
+   background-repeat: no-repeat;
+   top: 30px;
+}
+.my-services-text{
+    text-align: center;
+} 
+    .my-services-box{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .img{
+        margin: 50px;
+    }
+    .skills{
+     font-weight: bold;
+     text-align: center;
+     position: relative;  
+
+    }
+    .skills-text{
+        text-align: center;
+       font-size: x-small; 
+       margin-top: 10px;
+    }
+    .skills::after{
+      position: absolute;
+      content: "";
+      width:  200px;
+      height: 30px;
+      background-image: url(./marker.svg);
+      background-repeat: no-repeat;
+      top: 30px;
+      right: 450px;
+      bottom: 10px;
+
+    }
+    .div1{
+        width: 350px;
+        height: 10px;
+        background-color: bisque;
+        border-radius: 15px;
+    }
+    .div1-pro{
+        width: 300px;
+        height: 10px;
+        background-color: yellow;
+    }
+.parcent-tittle{
+    display: flex;
+    justify-content: space-between;
+}
+.mk{
+    width: 350px;
+}
+#javascript{
+    width: 280px;
+}
+#react{
+    width: 250px;
+}
+#php{
+    width: 240px;
+}
+#photoshop{
+    width: 220px;
+}
+.parcent{
+    display: flex;
+    justify-content: space-around;
+}
+#portfolio{
+    text-align: center;
+}
+.logo{
+    display: flex;
+}
+#portfolio{
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+#portfolio::after{
+content: "";
+position: absolute;
+width: 200px;
+height: 30px;
+top: 30px;
+background-image: url(./marker.svg);
+background-repeat: no-repeat;
+right: 450pxa;    
+}
+#experience{
+    text-align: center;
+    position: relative;
+}
+#experience::after{
+    content: "";
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    background-image: url(./marker.svg);
+    background-repeat: no-repeat;
+    right: 450px;
+}
+
+.design{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background-color: rgb(80, 156, 156);
+    padding: 15px;
+    border-radius: 10px;
+}
+#lorem{
+    width: 500px;
+}
+.experience-text{
+    display: flex;
+    justify-content: space-around;
+}
+.parcent{
+    background-color: navajowhite;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* testimonial section start */
+.all__testimonial {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 30px;
+}
+
+.single__testimonial {
+    padding: 10px 15px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    border: 1px solid #777;
+    box-shadow: 2px 3px 13px -1px rgba(145,124,124,0.75);
+    -webkit-box-shadow: 2px 3px 13px -1px rgba(145,124,124,0.75);
+    -moz-box-shadow: 2px 3px 13px -1px rgba(145,124,124,0.75);
+}
+
+.single__bottom > img {
+    width: 100px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 28px;
+}
+
+.single__bottom {
+    align-self:flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.single__bottom > h1{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.single__top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.single__top > i {
+    padding-right: 13px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+
+.mobile__menu{
+    display: none;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px){
+    .all__testimonial {
+        grid-template-columns: 1fr;
+    }
+    .menuu{
+        display: none;
+    }
+    .mobile__menu{
+        display: inline-flex;
+    }
+    section.banar {
+        flex-wrap: wrap;
+    }
+    
+    section.about-myself {
+        flex-wrap: wrap;
+    }
+}
